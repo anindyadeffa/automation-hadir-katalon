@@ -6,12 +6,12 @@
    <UUID>ef6880e7-d0f0-422c-bd12-cee8950ed3eb</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.1.1</modifiedVersion>
+   <modifiedVersion>10.2.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Yanzen\Documents\Solanoize\vunction\learning\automation-hadir-katalon\Magang Dika Hadir Web.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Jons\Katalon Studio\Magang Dika Hadir Web\Magang Dika Hadir Web.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
