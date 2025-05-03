@@ -23,6 +23,7 @@ WebUI.openBrowser('')
 'Maximize ukuran windows'
 WebUI.maximizeWindow()
 
+'Navigasi ke Url Website'
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
 WebUI.setText(findTestObject('Object Repository/Log In Page/input_Email_email'), 'admin@hadir.com')
