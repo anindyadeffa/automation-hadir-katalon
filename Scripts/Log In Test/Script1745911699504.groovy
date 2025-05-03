@@ -29,6 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Log In Page/input_Email_email'),
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Log In Page/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
+'Klik elemen button masuk'
 WebUI.click(findTestObject('Object Repository/Log In Page/button_Masuk'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Log In Page/p_Dashboard Menu'), 'Dashboard Menu')
