@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('Dashboard Pending Page/Side Bar Dashboard Menu'))
 
 WebUI.click(findTestObject('Dashboard Pending Page/Side Bar Item Pending'))
-
+'Waktu tunggu 2 detik'
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Dashboard Pending Page/Button Calender Box'))
