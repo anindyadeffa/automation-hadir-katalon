@@ -17,8 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Buka browser pengujian'
 WebUI.openBrowser('')
 
+'Maximize ukuran windows'
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
