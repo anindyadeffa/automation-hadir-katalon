@@ -17,21 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Buka browser pengujian'
-WebUI.openBrowser('')
+WebUI.delay(1)
 
-'Maximize ukuran windows'
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Dashboard izin terlambat Page/input search'), 'Tejo')
 
-'Navigasi ke Url Website'
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Start Date-End Date'))
 
-WebUI.setText(findTestObject('Object Repository/Log In Page/input_Email_email'), 'admin@hadir.com')
+WebUI.delay(1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Log In Page/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
 
-'Klik elemen button masuk'
-WebUI.click(findTestObject('Object Repository/Log In Page/button_Masuk'))
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Log In Page/p_Dashboard Menu'), 'Dashboard Menu')
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button_11'))
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button_21'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button save'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button Search'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Rows page'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Dashboard izin terlambat Page/Angka 5'))
 

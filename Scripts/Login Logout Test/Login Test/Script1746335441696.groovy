@@ -17,21 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Buka browser pengujian'
-WebUI.openBrowser('')
+WebUI.delay(1)
 
-'Maximize ukuran windows'
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Login Page/input email'), 'admin@hadir.com')
 
-'Navigasi ke Url Website'
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.setEncryptedText(findTestObject('Login Page/input password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.setText(findTestObject('Object Repository/Log In Page/input_Email_email'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Log In Page/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-'Klik elemen button masuk'
-WebUI.click(findTestObject('Object Repository/Log In Page/button_Masuk'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Log In Page/p_Dashboard Menu'), 'Dashboard Menu')
+WebUI.click(findTestObject('Login Page/button Login'))
 
