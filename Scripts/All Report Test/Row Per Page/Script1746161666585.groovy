@@ -21,25 +21,25 @@ WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Rows Per Page'))
+WebUI.click(findTestObject('All Report Page/Pagination/Rows Per Page'))
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/List 25'))
-
-WebUI.delay(2)
-
-WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
-
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Rows Per Page'))
-
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/List 10'))
+WebUI.click(findTestObject('All Report Page/Pagination/li_25'))
 
 WebUI.delay(2)
 
 WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Rows Per Page'))
+WebUI.click(findTestObject('All Report Page/Pagination/Rows Per Page'))
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/List 5'))
+WebUI.click(findTestObject('All Report Page/Pagination/li_10'))
+
+WebUI.delay(2)
+
+WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
+
+WebUI.click(findTestObject('All Report Page/Pagination/Rows Per Page'))
+
+WebUI.click(findTestObject('All Report Page/Pagination/li_5'))
 
 WebUI.delay(2)
 

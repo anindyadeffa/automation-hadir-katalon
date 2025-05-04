@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Next Page Pagination'))
+WebUI.click(findTestObject('All Report Page/Pagination/Next Page Pagination'))
 
 WebUI.delay(2)
 
 WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Last Page Pagination'))
+WebUI.click(findTestObject('All Report Page/Pagination/Last Page Pagination'))
 
 WebUI.delay(2)
 
 WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/Prev Page Pagination'))
+WebUI.click(findTestObject('All Report Page/Pagination/Prev Page Pagination'))
 
 WebUI.delay(2)
 
 WebUI.executeJavaScript('window.scrollTo(0,7000)', [])
 
-WebUI.click(findTestObject('Dashboard Pending Page/Validator/First Page Pagination'))
+WebUI.click(findTestObject('All Report Page/Pagination/First Page Pagination'))
 
 WebUI.delay(3)
 
