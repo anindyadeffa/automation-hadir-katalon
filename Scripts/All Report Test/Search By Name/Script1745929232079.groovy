@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('All Report Page/Side Bar Laporan'))
-
-WebUI.click(findTestObject('All Report Page/Side Bar Item Semua'))
+WebUI.click(findTestObject('All Report Page/Button Reset'))
 
 WebUI.delay(2)
 
