@@ -17,27 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('All Report Page/Side Bar Laporan'))
-
-WebUI.click(findTestObject('All Report Page/Side Bar Item Semua'))
-
 WebUI.delay(2)
 
-WebUI.click(findTestObject('All Report Page/Button Calender Box'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('All Report Page/Prev Button'))
-
-WebUI.click(findTestObject('All Report Page/Prev Button'))
-
-WebUI.click(findTestObject('All Report Page/Date 1'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('All Report Page/Date 31'))
+WebUI.setText(findTestObject('All Report Page/Input Search'), 'Masuk on-time')
 
 WebUI.click(findTestObject('All Report Page/Button Search'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('All Report Page/Button Reset'))
 

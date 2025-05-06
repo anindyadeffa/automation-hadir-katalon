@@ -29,6 +29,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('All Report Page/Button Filter'))
 
+WebUI.click(findTestObject('All Report Page/Filter By Search'))
+
 WebUI.setText(findTestObject('All Report Page/Input Job Department'), 'Brodo')
 
 // WebUI.delay(1)
