@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.delay(2)
 
 // WebUI.click(findTestObject('All Report Page/Button Reset'))
-WebUI.setText(findTestObject('All Report Page/Input Search'), 'juned')
+WebUI.setText(findTestObject('All Report Page/Input Search'), 'Bujang')
 
 WebUI.click(findTestObject('All Report Page/Button Calender Box'))
 
@@ -44,11 +44,17 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('All Report Page/Button Filter'))
 
-WebUI.click(findTestObject('All Report Page/Input Job Department'))
+WebUI.click(findTestObject('All Report Page/Filter By Search'))
 
+WebUI.click(findTestObject('All Report Page/Button Clear'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('All Report Page/Input Job Department'), 'Business Development')
+
+// WebUI.delay(1)
+// WebUI.click(findTestObject('All Report Page/List Department Kopi Susu'))
 WebUI.delay(1)
 
-WebUI.click(findTestObject('All Report Page/List Department Kopi Susu'))
+WebUI.click(findTestObject('All Report Page/li_Business_Development'))
 
 WebUI.delay(1)
 

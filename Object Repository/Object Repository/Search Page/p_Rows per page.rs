@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Rows per page</name>
+   <tag></tag>
+   <elementGuidId>96f4a6f1-5c06-4bb1-b821-ed988f221b47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mui-47</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='mui-47']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0ac28257-ed18-40bf-934e-1143ab8c8708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTablePagination-selectLabel css-kim0d</value>
+      <webElementGuid>1dce411d-e9e7-48c2-afe0-517bd623e8de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-47</value>
+      <webElementGuid>185f3a8c-b339-4c56-ba15-667d2df31bcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rows per page:</value>
+      <webElementGuid>d71eb423-219f-48ff-9702-d7199df1b02d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mui-47&quot;)</value>
+      <webElementGuid>a0faeaa1-92c2-49fb-a904-9401eb7a7a68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='mui-47']</value>
+      <webElementGuid>243c6b8a-f76b-4470-a5cf-6fe51cec7f31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/p</value>
+      <webElementGuid>c132afbc-ac75-41f9-9bb0-5da1dcd990d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[5]/following::p[1]</value>
+      <webElementGuid>fabe66ed-802f-4513-9359-53e4b46d8463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Urusan Keluarga'])[4]/following::p[1]</value>
+      <webElementGuid>38f699ac-7753-4bc8-bd01-c9855956cdb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rows per page:']/parent::*</value>
+      <webElementGuid>3be5a5b3-24ee-499d-942a-fefca3972add</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/p</value>
+      <webElementGuid>c6b9aab5-260e-4f34-b89e-ac8c104004b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'mui-47' and (text() = 'Rows per page:' or . = 'Rows per page:')]</value>
+      <webElementGuid>936a63ff-6ba3-4da7-b676-2d3ac2a69d5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Izin Pulang Cepat Page/p_Laporan'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Izin Pulang Cepat Page/p_Izin Pulang Cepat'))
+

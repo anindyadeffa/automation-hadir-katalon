@@ -29,7 +29,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('All Report Page/Button Filter'))
 
-WebUI.setText(findTestObject('All Report Page/Input Job Department'), 'Business Development')
+WebUI.setText(findTestObject('All Report Page/Input Job Department'), 'Brodo')
 
 // WebUI.delay(1)
 // WebUI.click(findTestObject('All Report Page/List Department Kopi Susu'))
@@ -42,4 +42,6 @@ WebUI.delay(1)
 WebUI.click(findTestObject('All Report Page/button_Terapkan'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('All Report Page/Button Reset'))
 
