@@ -47,7 +47,3 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Dashboard izin terlambat Page/button save'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button Reset'))
-
