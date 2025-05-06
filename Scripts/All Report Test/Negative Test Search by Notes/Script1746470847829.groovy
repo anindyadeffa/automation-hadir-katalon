@@ -16,8 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.delay(2)
+
+def driver = DriverFactory.getWebDriver()
+
+WebElement tableElement = driver.findElement(By.xpath('//div[@class=\'MuiTableContainer-root css-kge0eu\']'))
+
+((JavascriptExecutor) driver).executeScript("""
+    arguments[0].scrollLeft = arguments[0].scrollWidth;
+""", tableElement)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('All Report Page/Input Search'), 'Masuk on-time')
 

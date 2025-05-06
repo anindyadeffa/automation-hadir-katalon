@@ -22,35 +22,35 @@
       <guid>2974679d-9554-4797-b7f2-28e09b0769b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard</testCaseId>
+      <testCaseId>Test Cases/Dashboard Menu Test/Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b4d0ad6a-1420-4c78-ad3a-9c36ba1da281</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Izin Pulang Cepat</testCaseId>
+      <testCaseId>Test Cases/Izin Pulang Cepat Page/Izin Pulang Cepat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c47bdd28-2e68-4383-83e3-0b6089cdd01c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Start Date - End Date</testCaseId>
+      <testCaseId>Test Cases/Izin Pulang Cepat Page/Start Date - End Date</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cb37551f-d72c-4499-b8d5-5d2d08fafe51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search</testCaseId>
+      <testCaseId>Test Cases/Izin Pulang Cepat Page/Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d7f2d65f-f236-4095-9a33-dde4f79c88cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Filter</testCaseId>
+      <testCaseId>Test Cases/Izin Pulang Cepat Page/Filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

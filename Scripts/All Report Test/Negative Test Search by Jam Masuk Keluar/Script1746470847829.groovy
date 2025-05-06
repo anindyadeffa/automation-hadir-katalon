@@ -27,3 +27,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('All Report Page/Button Reset'))
 
+WebUI.delay(2)
+
