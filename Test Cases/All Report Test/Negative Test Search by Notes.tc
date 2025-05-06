@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Search by Department Filter</name>
+   <name>Negative Test Search by Notes</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8d13f721-93fc-491a-9579-2e75dad61262</testCaseGuid>
+   <testCaseGuid>26bc792e-dc67-4227-bf46-e0e4dc31a472</testCaseGuid>
 </TestCaseEntity>

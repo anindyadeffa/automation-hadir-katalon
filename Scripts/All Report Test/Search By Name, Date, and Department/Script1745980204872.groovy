@@ -64,9 +64,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('All Report Page/Button Search'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dashboard Pending Page/Button Reset'))
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
