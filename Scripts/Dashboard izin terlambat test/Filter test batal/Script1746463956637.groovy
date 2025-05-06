@@ -19,37 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Dashboard izin terlambat Page/input search'), 'Tejo')
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Start Date-End Date'))
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button filter'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Next Prev Button'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button_11'))
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button_21'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button save'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button Search'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Rows page'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/Angka 5'))
+WebUI.click(findTestObject('Dashboard izin terlambat Page/button Batal'))
 
