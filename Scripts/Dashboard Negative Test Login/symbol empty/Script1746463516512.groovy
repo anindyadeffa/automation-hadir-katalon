@@ -19,23 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button filter'))
+'Login dengan email yang tidak menggunakan symbol \'@\''
+WebUI.setText(findTestObject('Object Repository/Login Page/input email'), 'adminhadir.com')
 
-WebUI.delay(1)
+'Login dengan password yang valid'
+WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/input password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button Batal'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button filter'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/input unit job'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/pilih Test aja'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Dashboard izin terlambat Page/button Terapkan'))
+WebUI.click(findTestObject('Object Repository/Login Page/button Login'))
 
